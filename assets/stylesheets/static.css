@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+   font-family: Noto Sans KR, sans-serif;
+   font-weight: 300;
+   letter-spacing: -0.8px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: #999;
+}
+a:active, a:focus {
+  outline: none;
+}
+a:hover {
+  color: #666;
+}
+
+#container {
+  width: 400px;
+  -moz-box-shadow: #999 2px 2px 10px;
+  -webkit-box-shadow: #999 2px 2px 10px;
+  box-shadow: #999 2px 2px 10px;
+  margin: 0px auto;
+}
+
+.image {
+  height: 275px;
+  background: center center no-repeat;
+  background-size: cover;
+}
+
+.info {
+  padding: 10px 0;
+  background: #FAFAFA;
+  text-align: center;
+}
+.info h1.name {
+  margin: 0px;
+  font-weight: 400;
+  color: #5C5B5B;
+  font-size: 30px;
+  padding: 25px 0px 0px 0px;
+}
+h2, h3 {
+  margin: 0px;
+  color: #00BBBB;
+}
+.info p {
+  color: #666;
+  padding: 0px 60px;
+}
+
+.career, .contact {
+  padding: 10px;
+  text-align: center;
+}
+.contact {
+  background: #222;
+  color: #fff;
+}
+.career ul {
+  list-style: none;
+  text-align: left;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+@media (max-width: 450px) {
+  #container {
+    width: 100%;
+  }
+}
